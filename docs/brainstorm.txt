@@ -1,0 +1,5 @@
+Purpose: Allow people to purchase tickets for train trips.
+
+The user will enter what location they want to travel to, then the program will display the price and print out the ticket. 
+
+Bonus: Add Train Card Membership as an option | Provide art of a train map with stop offs.
