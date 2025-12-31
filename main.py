@@ -9,4 +9,4 @@ from ticket_machine_logic.logic import *
 
 
 if __name__ == "__main__":
-    print(func())
+    main_menu()
