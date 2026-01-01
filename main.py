@@ -7,9 +7,20 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
 
 
-
-
-if __name__ == "__main__":
+def start_screen():
     print_cbc(welcome_message(), GREEN)
     print_cbc(main_menu_display())
-    main_menu_prompt()
+
+if __name__ == "__main__":
+    start_screen()
+
+    if main_menu_prompt():
+        pass
+    else:
+        print_cbc(member_card_display(), YELLOW)
+        member_card_prompt()
+
+
+    start_screen()
+
+

@@ -19,13 +19,6 @@ def format_text(text, width=40, decorated=False, new_line=True):
         else:
             return f"\n{centered_text}"
 
-def format_options(options):
-    formatted_options = []
-    for index, text in enumerate(options, start=1):
-        option_str = format_text(f"{index}. {text}")
-        formatted_options.append(option_str)
-    return formatted_options
-
 def check_input(input_str, input_range):
     if input_str.isdigit() and input_str in input_range:
         return True
