@@ -1,4 +1,4 @@
-# Importing Libraries
+# Import Libraries
 import time
 import sys
 import re
@@ -57,8 +57,8 @@ def check_input(input_str, input_range):
 
 def print_cbc(text, color=None, delay=0.01):
     """
-    The print_character_by_character function prints text with color and delay for a more terminal-based feel,
-    handling ANSI escape sequences.
+    The print_character_by_character function prints text with color and delay for a more
+    terminal-based feel,handling ANSI escape sequences.
 
     Args:
         text (str): The text to be printed.
